@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="General test suite">
+	<suite-files>
+		<!-- Chrome suite -->
+		<suite-file path="chrome_testSuite.xml" />
+		<!-- Firefox suite -->
+		<suite-file path="firefox_testSuite.xml" />
+		<!-- Opera suite -->
+		<suite-file path="opera_testSuite.xml" />
+		<!-- IE suite -->
+		<suite-file path="IE_testSuite.xml" />
+	</suite-files>
+</suite>

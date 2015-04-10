@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestingOpera" verbose="5" data-provider-thread-count="1">
+    <parameter name="browserName" value="opera"/>	
+	<test name="SingleTestSuite">
+		<classes>
+		    <class name="email.subject.test.EmailPresentTest"/>
+		</classes>
+	</test>
+	  
+</suite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestingIE" verbose="5" data-provider-thread-count="1">
+    <parameter name="browserName" value="IE"/>	
+	<test name="SingleTestSuite">
+		<classes>
+		    <class name="email.subject.test.EmailPresentTest"/>
+		</classes>
+	</test>
+	  
+</suite>
